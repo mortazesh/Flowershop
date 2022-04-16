@@ -5,6 +5,11 @@
     direction: rtl;
 }
 
+@font-face {
+    font-family: Vazir;
+    src: url(../font/Vazir.woff);
+}
+
 body {
     width: 100%;
     min-height: 100vh;
@@ -157,6 +162,17 @@ body {
     align-items: center;
 }
 
+.section-container .section .left .top-order {
+    height: 75px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
 .section-container .section .left .top-conatiner>div {
     width: 32%;
     height: 175px;
@@ -178,6 +194,12 @@ body {
     flex-direction: column;
 }
 
+.section-container .section .left .bottom-order {
+    border: 1px solid #707070;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+}
+
 .section-container .section .left .bottom-conatiner .top {
     width: 100%;
     height: 50px;
@@ -193,4 +215,54 @@ body {
     border-radius: 10px;
     margin-bottom: 25px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.section-container .section .left .bottom-conatiner .text_order {
+    width: 95%;
+    height: 75px;
+    border-bottom: 1px solid #707070;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center
+}
+
+.section-container .section .left .bottom-conatiner .text_order p {
+    color: #575757;
+    font-size: 1.05em;
+    margin-left: 25px;
+}
+
+.section-container .section .left .bottom-conatiner .order {
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section-container .section .left .bottom-conatiner .order .comment {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #707070;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.section-container .section .left .bottom-conatiner .order .comment .right-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid #707070;
+    margin-right: 10px;
+}
+
+.section-container .section .left .bottom-conatiner .order .comment .right-img img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
 }
